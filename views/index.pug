@@ -1,0 +1,63 @@
+doctype html
+html 
+  head 
+    style 
+      include ../static/style.css 
+    title 
+        | Roshan Dance Acedemy  
+  body 
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/logo.jpg", alt="")
+            li #[a(href="/") Home] 
+            li #[a(href="/") About ]
+            li #[a(href="/") Services ]    
+            li #[a(href="/") Academy info ]
+            li #[a(href="/") Contact us ]
+
+    section#introSection 
+        div Welcome to Roshan's Dance Academy
+        div.small Dance With Soul
+
+    section#missionSection  
+        h2 Our Mission 
+        div.card
+            h3 Dance Perfection
+        
+                
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+        
+                
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+        
+                
+
+                div.card-content
+                    p This is the best dance academy of the universe 
+
+    section#sponserSection 
+        h2 Our Sponsors
+        div#sponsors
+          img(src= "/static/Client 1.png", alt= "Sponsor Image", class= "spImage")
+          img(src= "/static/Client 2.png", alt= "Sponsor Image", class= "spImage")
+          img(src= "/static/Client 4.png", alt= "Sponsor Image", class= "spImage")
+         
+
+    footer#footer
+        | Copyright © 2022 RoshanAcademy.com | All Rights Reserved     
+
+    
+    
+    
+    script 
+      include ../static/script.js      
+    

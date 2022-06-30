@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Trade Winds', cursive;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+.myInput{
+  font-size: 16px;
+  width: 40%;
+  padding: 9px;
+  margin: 8px;
+  border: 2px solid burlywood;
+  border-radius: 8px;
+
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    cursor: pointer;
+    padding: 5px 9px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    color: rgb(15, 19, 17);
+    background: rgb(238, 200, 29);
+    font-size: 1rem;
+
+}
+.btn:hover{
+    cursor: pointer;
+    
+    
+    border-radius: 10px;
+    color: rgb(255, 30, 0);
+    background: rgb(238, 147, 29);
+    font-size: 1.2rem;
+
+}
+.container{
+    min-height: 80vh;
+   
+}
